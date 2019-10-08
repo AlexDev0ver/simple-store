@@ -1,0 +1,35 @@
+.all-products {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	cursor: pointer;
+}
+
+.all-products-header {
+	width: 100%;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.all-products-single {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2vh;
+	margin-right: 2vh;
+
+}
+
+.all-products-single-picprice span {
+	position: absolute;
+	margin: 1vh;
+	border: 1px solid #ab9ad1;
+	background-color: #ab9ad1;
+	color: white;
+	border-radius: 25%;
+}
+
+.all-products-single-description {
+	display: flex;
+	max-width: 10vh;
+	flex-direction: column;
+}
